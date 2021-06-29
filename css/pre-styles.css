@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600;700&display=swap');
+:root{
+    usafablue: #00509D;
+    royalbluedark: #00296B;
+    mikadoyellow: #FDC500;
+    bluecrayola: #4E80FF;
+    richblack: #000814;
+    /*--white: #ffffff;*/
+    aliciablue: #E7F2FF;
+    medchampagne: #FFF0B4;
+}
+*{
+    box-sizing: border-box;
+}
+html, body{
+    padding: 0;
+    margin: 0;
+}
+body{
+font-family: 'Work Sans', sans-serif;
+}
+.bg-img{
+	background-image:url("../pre-docs/img/1.jpg");
+	padding: 80px 0;
+	background-size: 510px 180px;
+	background-repeat: repeat-x;
+}
+.bg-img h1{
+	position: absolute;
+	color: white;
+	font-size: 370%;
+	margin: 0px;
+	padding-left: 12px;
+}
+.home{
+	font-size: 18px;
+	background-color: aliceblue;
+	padding: 5px;
+}
+.guidelines h2{
+	font-size: 200%;
+	color: black;
+	background-color: #4E80FF;
+	
+	padding: 10px 0px;
+	text-align: center;
+}
+table{
+	margin: auto;
+	width: 100%;
+	font-family: sans-serif;
+	border-collapse: collapse;
+}
+.awareness h2{
+	font-size: 20px;
+	color: black;
+	background-color:#4E80FF;
+	display: inline-block;
+	text-align: center;
+	margin: 0px;
+	padding: 10px 10px;
+}
+.awareness{
+	width: 50%;
+	float: left;
+}
+.flt_r{
+	width: 50%;
+	float: right;
+}
+.clr_fix{
+	clear: both;
+}
+.filters, select, english, telugu{
+	background-color: #4E80FF;
+	font-size: 20px;
+	color: black;
+	float: right;
+	padding: 10px 10px;
+}
+
+.container{
+	width: 90%;
+	margin: 0px auto;
+}
+.img_pre{
+	width: 33.3%;
+	margin: 0px auto;
+	height: 450px;
+	float: left;
+	padding: 10px;
+}
+
+@media (max-width: 768px) {
+.container{
+	width: 90%;
+	margin: 0px auto;
+}
+.imgs_pre img{
+	width: 50%;
+	margin: 0px auto;
+	float: left;
+	padding: 10px;
+	height: 40vh;	
+	}
+.awareness h2{
+	font-size: 20px;
+	padding: 10px 10px;
+	text-align: center;
+}
+.div filters, select, english, telugu{
+	background-color: #4E80FF;
+	font-size: 20px;
+	padding: 10px 10px;
+	color: black;
+}
+.bg-img h1{
+	color: white;
+	font-size: 40px;
+	margin-top: 16px;
+}
+	.imgs_pre{
+		margin-top: -30px;
+	}
+}

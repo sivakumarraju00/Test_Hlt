@@ -852,7 +852,8 @@ footer div span i.fa-heart{
 @media (max-width: 768px){
 
     .tabBtn{
-        font-size: 16px;
+        font-size: 12px;
+	padding: 6px 5px;
     }
 
     /* siva */
